@@ -1,0 +1,1 @@
+This repository demonstrates a common SQL error: using `LIMIT` without `ORDER BY`. The `bug.sql` file contains a flawed query that produces inconsistent results because the order of rows is not defined. The `bugSolution.sql` file provides the corrected version, which includes an `ORDER BY` clause to ensure consistent and predictable results.
