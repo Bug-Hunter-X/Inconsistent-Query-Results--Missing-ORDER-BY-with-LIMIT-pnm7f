@@ -1,0 +1,1 @@
+The SQL query uses the `LIMIT` clause without an `ORDER BY` clause. This can lead to unpredictable results because the database system is free to return any arbitrary rows that meet the `WHERE` clause criteria.  The order of rows returned might change unpredictably across different executions of the query, even if the underlying data remains unchanged.
